@@ -33,6 +33,7 @@ header .header {
 .avatar {
     width: 25%;
     margin: 5% 37%;
+    border-radius: 40%;
 }
 .bg-dar {
     background-color:#031525 !important;
@@ -54,7 +55,7 @@ header .header {
     font-size: 25px;
 }
 .device {
-    margin: 3% auto;
+    margin: 3% auto 0 auto;
 }
 .about {
     background: rgb(2,29,78);
