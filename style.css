@@ -34,6 +34,9 @@ header .header {
     width: 25%;
     margin: 5% 37%;
 }
+.bg-dar {
+    background-color:#031525 !important;
+}
 .btn-outline-success {
     border:2px solid #040426 !important;
     color: #040426 !important;
