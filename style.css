@@ -53,6 +53,10 @@ header .header {
 }
 .startup {
     font-size: 25px;
+    color: #ffffff !important;
+}
+.startup-des {
+    color: #ffffff !important;
 }
 .device {
     margin: 3% auto 0 auto;
@@ -67,7 +71,10 @@ header .header {
 .aboutDiv {
     padding-bottom: 50% !important;
 }
-h6 {
+h6, h5 {
+    color: rgba(31, 215, 232, 0.873) !important;
+}
+.card-title {
     color: rgba(31, 215, 232, 0.873) !important;
 }
 li {
