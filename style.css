@@ -2,14 +2,16 @@
     width: 7px;
 }
 ::-webkit-scrollbar-track {
-    background-color: #050441;
+    background: rgb(2,29,78);
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #F768FF;
+    background-color: rgba(31, 215, 232, 0.873);
+    
 }
 body {
-    background-color: white;
+    color: white !important;
 }
+
 .avatar {
     width: 25%;
     margin: 5% 37%;
@@ -34,14 +36,17 @@ body {
     margin: 5% 12.5%;
 }
 .about {
-    background-color: #0E0C7B;
-    color: whitesmoke;
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 80%);
+    color: rgb(4, 4, 38);
+    /* background-color: rgb(2,29,78); */
+    /* color: whitesmoke; */
 }
 .aboutDiv {
     padding-bottom: 50% !important;
 }
 h6 {
-    color: hsl(297, 100%, 70%) !important;
+    color: rgba(31, 215, 232, 0.873) !important;
 }
 li {
     margin-left: -40px !important;
@@ -53,54 +58,34 @@ li {
     top: -180px;
 }
 .service {
+    color: white !important;
     width: 21rem !important;
+    backdrop-filter: blur(30px) !important;
+    background-color: rgb(4, 4, 38) !important;
+    border: 1px solid #050441;
 }
-.seeMore {
-    padding: 5px;
-    border-radius: 20px;
-    width: 180px !important;
-    border: 2px solid #F768FF;
-    background-color: transparent;
-    color: #F768FF;
-    margin: auto;
-    text-decoration: none;
-}
-.seeMore:hover{
-    transition: 180ms;
-    color: #050441;
-    /* font-weight: bold; */
-    background-color: #F768FF;
 
-}
-.seeMore2 {
-    padding: 5px;
-    border-radius: 20px;
-    width: 120px !important;
-    border: 2px solid #F768FF;
-    background-color: transparent;
-    color: white;
-    margin: auto;
-    text-decoration: none;
-}
-.seeMore2:hover {
-    transition: 180ms;
-    background-color: rgb(247 104 255 / 60%);
-}
-.d-grid {
+/* .d-grid {
     background-color: #0E0C7B  !important;
-}
+} */
 .connect {
     margin-top: 50px;
-    background-color: #050441;
+    background-color: rgb(4, 4, 38);
     border-radius: 20px;
     color: white;
     
 }
 .project {
+    border: 1px solid rgba(31, 215, 232, 0.873) !important;
+    background-color: rgb(4,4,38) !important;
+    color: white !important;
     border-radius: 0 !important;
 }
 footer {
-    background-color: #0E0C7B;
+    /* background-color: #0E0C7B; */
+    background: rgb(2,29,78);
+    background: linear-gradient(0deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 80%);
+    color: rgb(4, 4, 38);
 }
 .works {
     position: relative;
@@ -134,15 +119,75 @@ footer {
   }
   
   .text {
-    background-color: #050441;
+    /* background-color: #050441;
     color: #050441;
     color: white;
+    border: 2px solid #F768FF; */
     font-size: 16px;
     font-weight: bold;
-    padding: 7px 35px;
     border-radius: 30px;
-    border: 2px solid #F768FF;
+    padding: 7px 35px;
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
   }
+
+    /* test */
+
+  .seeMore {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    /* -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); */
+  }
+  
+  .seeMore:active {
+    scale: 0.92;
+  }
+  
+  .seeMore:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .seeMore2 {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .seeMore2 {
+    width: 150px !important;
+    /* height: 40px !important; */
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, rgba(31, 215, 232) 0%, rgba(2, 29, 78) 100%);
+    /* box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5); */
+    outline: none;
+    cursor: pointer;
+    border: none;
+    /* font-size: 24px; */
+    color: white;
+    margin: auto;
+  }
+  
+  .seeMore2:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .seeMore2:active {
+    opacity: 0.5;
+  }
+
 @media screen and (min-width:700px) {
     .cardSec {
         position: relative;
